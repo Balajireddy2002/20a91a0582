@@ -3,7 +3,7 @@
 #include<stdlib.h>
 int main()
 {
-    char *str, *str1 = "I hate You";
+    char *str, *str1 = "I hate You bokka";
     str = malloc(strlen(str1));
     strcpy(str,str1);
     printf("%s", str);
